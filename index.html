@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choice Wheel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Choice Wheel</h1>
+        <div class="input-section">
+            <div class="num-options">
+                <label for="numOptions">Number of Options:</label>
+                <input type="number" id="numOptions" min="2" value="2">
+                <button id="setOptions" class="btn">Set Options</button>
+            </div>
+            <div id="optionsContainer" class="options-container"></div>
+        </div>
+        <button id="playButton" class="btn play-btn">Spin the Wheel!</button>
+        <div id="result" class="result"></div>
+        <div class="author">Powered by Dynamic.IO</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
